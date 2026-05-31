@@ -1,7 +1,7 @@
-package creacion.factoryMethod.factories;
+package creacion.factoryMethod.ejemplo1.factories;
 
-import creacion.factoryMethod.entities.Enemy;
-import creacion.factoryMethod.entities.Goomba;
+import creacion.factoryMethod.ejemplo1.entities.Enemy;
+import creacion.factoryMethod.ejemplo1.entities.Goomba;
 
 // CONCRETE_CREATOR: Clase concreta de la factoria que extiende de la clase abstracta EnemyFactory
 public class GoombaFactory extends EnemyFactory {

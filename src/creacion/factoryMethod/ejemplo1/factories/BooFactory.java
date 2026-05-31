@@ -1,16 +1,16 @@
-package creacion.factoryMethod.factories;
+package creacion.factoryMethod.ejemplo1.factories;
 
-import creacion.factoryMethod.entities.Enemy;
-import creacion.factoryMethod.entities.Koopa;
+import creacion.factoryMethod.ejemplo1.entities.Boo;
+import creacion.factoryMethod.ejemplo1.entities.Enemy;
 
 // CONCRETE_CREATOR: Clase concreta de la factoria que extiende de la clase abstracta EnemyFactory
-public class KoopaFactory extends EnemyFactory{
+public class BooFactory extends EnemyFactory{
 
     /**
      * Metodo abstracto de la clase abstracta EnemyFactory implementado para que devuelva un Boo
      */
     @Override
     public Enemy createEnemy() {
-        return new Koopa();
+        return new Boo();
     }
 }

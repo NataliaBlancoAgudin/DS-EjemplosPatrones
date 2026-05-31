@@ -1,6 +1,6 @@
-package creacion.factoryMethod.factories;
+package creacion.factoryMethod.ejemplo1.factories;
 
-import creacion.factoryMethod.entities.Enemy;
+import creacion.factoryMethod.ejemplo1.entities.Enemy;
 
 // CREATOR. Clase Abstracta EnemyFactory. Es la clase abstracta que extenderan todas las factorias
 public abstract class EnemyFactory {

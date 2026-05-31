@@ -1,6 +1,6 @@
-package creacion.factoryMethod;
+package creacion.factoryMethod.ejemplo1;
 
-import creacion.factoryMethod.factories.EnemyFactory;
+import creacion.factoryMethod.ejemplo1.factories.EnemyFactory;
 
 // CLIENT: Clase cliente que usa las factorias. Deja que el main decida cual es la factoria que quiere utilizar,
 // para que decida el modo de juego que prefiera

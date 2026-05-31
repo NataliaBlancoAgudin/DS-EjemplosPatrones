@@ -1,6 +1,6 @@
-package creacion.factoryMethod;
+package creacion.factoryMethod.ejemplo1;
 
-import creacion.factoryMethod.factories.*;
+import creacion.factoryMethod.ejemplo1.factories.*;
 
 public class Main {
 

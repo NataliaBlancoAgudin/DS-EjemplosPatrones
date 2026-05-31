@@ -1,4 +1,4 @@
-package creacion.factoryMethod.entities;
+package creacion.factoryMethod.ejemplo1.entities;
 
 // CONCRETE_PRODUCT: Clase concreta Goomba que hereda de Enemy
 public class Goomba implements Enemy {
